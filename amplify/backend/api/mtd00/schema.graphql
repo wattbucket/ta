@@ -1,0 +1,14 @@
+type Note @model {
+  id: ID!
+  note: String!
+  c00: String
+  c01: String
+  c02: String
+  c03: String
+  c04: String
+  c05: String
+  c06: String
+  c07: String
+  c08: String
+  c09: String
+}

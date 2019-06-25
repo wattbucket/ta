@@ -15,12 +15,15 @@ code .
 
 
 ## package.json
+insertar las lineas
 ```
+...
+"homepage": "https://wattbucket.com/mtd/",
 "scripts":{
  "predeploy": "npm run build",
  "deploy": "gh-pages -d build",
-}
-"homepage":"https://yourusername.github.io/repository-name"
+...
+
 ```
 
 ## push repositorio 

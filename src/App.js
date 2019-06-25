@@ -12,6 +12,9 @@ function App() {
     id: '',
     note: '',
     c01: '',
+    c02: '',
+    c09: '',
+
     notes: []
   })
 
@@ -92,10 +95,12 @@ function App() {
 
   return (
     <div className="flex flex-column items-center justify-center pa3 bg-washed-red">
-      <h1 className="code f2-l">Amplify Note Taker</h1>
+      <h1 className="code f2-l">Memoria Tecnica de Diseno</h1>
       <form className="mb3" onSubmit={handleSubmit}>
-        <input type="text" value={state.note} className="pa2 f4" placeholder="write you note" onChange={ e => setState({ ...state, note: e.target.value }) }/>
-        <button type="submit" className="pa2 f4">{state.id ? 'Update Note' : 'Add Note' }</button>
+      <input type="text" value={state.note} className="pa2 f4" placeholder="nombre de la MTD" onChange={ e => setState({ ...state, note: e.target.value }) }/>
+      <input type="text" value={state.c01} className="pa2 f4" placeholder="c01" onChange={ e => setState({ ...state, c01: e.target.value }) }/>
+      <input type="text" value={state.c09} className="pa2 f4" placeholder="c09" onChange={ e => setState({ ...state, c0ss1: e.target.value }) }/>
+        <button type="submit" className="pa2 f4">{state.id ? 'Modificar' : 'Crear' }</button>
       </form>
       <div>
         { state.notes ? state.notes.map( item => 

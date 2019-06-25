@@ -11,6 +11,7 @@ function App() {
   const [state, setState] = useState({
     id: '',
     note: '',
+    c01: '',
     notes: []
   })
 

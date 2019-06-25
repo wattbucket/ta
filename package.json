@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "0.9.5"
   },
-  "homepage": "https://wattbucket.com/pt/",
+  "homepage": "https://wattbucket.com/ta/",
   "devDependencies": {},
   "scripts": {
     "predeploy": "npm run build",

@@ -29,6 +29,7 @@ insertar las lineas
 ## push repositorio 
 ```
 cat ~/.ssh/id_rsa.pub
+git remote remove origin
 git remote add origin git@github.com:wattbucket/mtd.git
 git push -u origin master
 ```
